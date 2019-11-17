@@ -1,6 +1,5 @@
 # Study of the electric distribution network of a mountain village
 
-----
 For my class of "Distributed generation" during my studies at "Grenoble INP - ENSE3" we work on the analysis of the electric distribution network of a mountain village. Most of the analysis was developed in Python.
 
 Info about the project:
