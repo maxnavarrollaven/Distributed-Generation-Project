@@ -1,56 +1,71 @@
-\* mountain_village_2 *\
+\* storage *\
 Minimize
-obj_tot: __dummy
+obj_tot: grid_consumption_p_0 + grid_consumption_p_1 + grid_consumption_p_10
+ + grid_consumption_p_11 + grid_consumption_p_12 + grid_consumption_p_13
+ + grid_consumption_p_14 + grid_consumption_p_15 + grid_consumption_p_16
+ + grid_consumption_p_17 + grid_consumption_p_18 + grid_consumption_p_19
+ + grid_consumption_p_2 + grid_consumption_p_20 + grid_consumption_p_21
+ + grid_consumption_p_22 + grid_consumption_p_23 + grid_consumption_p_3
+ + grid_consumption_p_4 + grid_consumption_p_5 + grid_consumption_p_6
+ + grid_consumption_p_7 + grid_consumption_p_8 + grid_consumption_p_9
+ + grid_production_p_0 + grid_production_p_1 + grid_production_p_10
+ + grid_production_p_11 + grid_production_p_12 + grid_production_p_13
+ + grid_production_p_14 + grid_production_p_15 + grid_production_p_16
+ + grid_production_p_17 + grid_production_p_18 + grid_production_p_19
+ + grid_production_p_2 + grid_production_p_20 + grid_production_p_21
+ + grid_production_p_22 + grid_production_p_23 + grid_production_p_3
+ + grid_production_p_4 + grid_production_p_5 + grid_production_p_6
+ + grid_production_p_7 + grid_production_p_8 + grid_production_p_9
 Subject To
-eco_district_unit_calc_e_tot: eco_district_unit_e_tot = 920035.75231
+eco_district_calc_e_tot: eco_district_e_tot = 376.537625772
 elec_node_power_balance_0: - grid_consumption_p_0 + grid_production_p_0
- - storage_p_0 = 34303.910448
+ - storage_p_0 = 13.8321133392
 elec_node_power_balance_1: - grid_consumption_p_1 + grid_production_p_1
- - storage_p_1 = 44931.218326
+ - storage_p_1 = 5.38278776222
 elec_node_power_balance_10: - grid_consumption_p_10 + grid_production_p_10
- - storage_p_10 = -7243.70596136
+ - storage_p_10 = -24.4728722986
 elec_node_power_balance_11: - grid_consumption_p_11 + grid_production_p_11
- - storage_p_11 = -12407.9680541
+ - storage_p_11 = -19.9887187009
 elec_node_power_balance_12: - grid_consumption_p_12 + grid_production_p_12
- - storage_p_12 = -9413.04530577
+ - storage_p_12 = -22.3739780839
 elec_node_power_balance_13: - grid_consumption_p_13 + grid_production_p_13
- - storage_p_13 = -10180.5250893
+ - storage_p_13 = -30.333694356
 elec_node_power_balance_14: - grid_consumption_p_14 + grid_production_p_14
- - storage_p_14 = -5109.35274814
+ - storage_p_14 = -23.0293346301
 elec_node_power_balance_15: - grid_consumption_p_15 + grid_production_p_15
- - storage_p_15 = 10880.3386462
+ - storage_p_15 = -17.4976117032
 elec_node_power_balance_16: - grid_consumption_p_16 + grid_production_p_16
- - storage_p_16 = 34476.685165
+ - storage_p_16 = -2.72663238309
 elec_node_power_balance_17: - grid_consumption_p_17 + grid_production_p_17
- - storage_p_17 = 38311.542887
+ - storage_p_17 = 6.09080073454
 elec_node_power_balance_18: - grid_consumption_p_18 + grid_production_p_18
- - storage_p_18 = 42424.178871
+ - storage_p_18 = 6.59886480768
 elec_node_power_balance_19: - grid_consumption_p_19 + grid_production_p_19
- - storage_p_19 = 43750.460615
+ - storage_p_19 = 16.2133762799
 elec_node_power_balance_2: - grid_consumption_p_2 + grid_production_p_2
- - storage_p_2 = 38259.186827
+ - storage_p_2 = 3.30366812172
 elec_node_power_balance_20: - grid_consumption_p_20 + grid_production_p_20
- - storage_p_20 = 42491.543138
+ - storage_p_20 = 11.9077530523
 elec_node_power_balance_21: - grid_consumption_p_21 + grid_production_p_21
- - storage_p_21 = 42898.679732
+ - storage_p_21 = 10.1786635385
 elec_node_power_balance_22: - grid_consumption_p_22 + grid_production_p_22
- - storage_p_22 = 41014.335802
+ - storage_p_22 = 12.5229794437
 elec_node_power_balance_23: - grid_consumption_p_23 + grid_production_p_23
- - storage_p_23 = 39318.385069
+ - storage_p_23 = 12.1858537297
 elec_node_power_balance_3: - grid_consumption_p_3 + grid_production_p_3
- - storage_p_3 = 37291.680931
+ - storage_p_3 = 2.46361742848
 elec_node_power_balance_4: - grid_consumption_p_4 + grid_production_p_4
- - storage_p_4 = 31730.993885
+ - storage_p_4 = -0.512137164859
 elec_node_power_balance_5: - grid_consumption_p_5 + grid_production_p_5
- - storage_p_5 = 32348.21827
+ - storage_p_5 = 2.03452537047
 elec_node_power_balance_6: - grid_consumption_p_6 + grid_production_p_6
- - storage_p_6 = 36475.20477
+ - storage_p_6 = -1.15969445775
 elec_node_power_balance_7: - grid_consumption_p_7 + grid_production_p_7
- - storage_p_7 = 31617.727049
+ - storage_p_7 = 0.789121134609
 elec_node_power_balance_8: - grid_consumption_p_8 + grid_production_p_8
- - storage_p_8 = 25389.017125
+ - storage_p_8 = -12.7747267206
 elec_node_power_balance_9: - grid_consumption_p_9 + grid_production_p_9
- - storage_p_9 = 514.579437351
+ - storage_p_9 = -18.2845244771
 grid_consumption_calc_e_tot: grid_consumption_e_tot - grid_consumption_p_0
  - grid_consumption_p_1 - grid_consumption_p_10 - grid_consumption_p_11
  - grid_consumption_p_12 - grid_consumption_p_13 - grid_consumption_p_14
@@ -165,53 +180,53 @@ grid_production_calc_e_tot: grid_production_e_tot - grid_production_p_0
  - grid_production_p_23 - grid_production_p_3 - grid_production_p_4
  - grid_production_p_5 - grid_production_p_6 - grid_production_p_7
  - grid_production_p_8 - grid_production_p_9 = 0
-grid_production_on_off_max_0: grid_production_p_0 - 50000 grid_production_u_0
+grid_production_on_off_max_0: grid_production_p_0 - 100000 grid_production_u_0
  <= 0
-grid_production_on_off_max_1: grid_production_p_1 - 50000 grid_production_u_1
+grid_production_on_off_max_1: grid_production_p_1 - 100000 grid_production_u_1
  <= 0
 grid_production_on_off_max_10: grid_production_p_10
- - 50000 grid_production_u_10 <= 0
+ - 100000 grid_production_u_10 <= 0
 grid_production_on_off_max_11: grid_production_p_11
- - 50000 grid_production_u_11 <= 0
+ - 100000 grid_production_u_11 <= 0
 grid_production_on_off_max_12: grid_production_p_12
- - 50000 grid_production_u_12 <= 0
+ - 100000 grid_production_u_12 <= 0
 grid_production_on_off_max_13: grid_production_p_13
- - 50000 grid_production_u_13 <= 0
+ - 100000 grid_production_u_13 <= 0
 grid_production_on_off_max_14: grid_production_p_14
- - 50000 grid_production_u_14 <= 0
+ - 100000 grid_production_u_14 <= 0
 grid_production_on_off_max_15: grid_production_p_15
- - 50000 grid_production_u_15 <= 0
+ - 100000 grid_production_u_15 <= 0
 grid_production_on_off_max_16: grid_production_p_16
- - 50000 grid_production_u_16 <= 0
+ - 100000 grid_production_u_16 <= 0
 grid_production_on_off_max_17: grid_production_p_17
- - 50000 grid_production_u_17 <= 0
+ - 100000 grid_production_u_17 <= 0
 grid_production_on_off_max_18: grid_production_p_18
- - 50000 grid_production_u_18 <= 0
+ - 100000 grid_production_u_18 <= 0
 grid_production_on_off_max_19: grid_production_p_19
- - 50000 grid_production_u_19 <= 0
-grid_production_on_off_max_2: grid_production_p_2 - 50000 grid_production_u_2
+ - 100000 grid_production_u_19 <= 0
+grid_production_on_off_max_2: grid_production_p_2 - 100000 grid_production_u_2
  <= 0
 grid_production_on_off_max_20: grid_production_p_20
- - 50000 grid_production_u_20 <= 0
+ - 100000 grid_production_u_20 <= 0
 grid_production_on_off_max_21: grid_production_p_21
- - 50000 grid_production_u_21 <= 0
+ - 100000 grid_production_u_21 <= 0
 grid_production_on_off_max_22: grid_production_p_22
- - 50000 grid_production_u_22 <= 0
+ - 100000 grid_production_u_22 <= 0
 grid_production_on_off_max_23: grid_production_p_23
- - 50000 grid_production_u_23 <= 0
-grid_production_on_off_max_3: grid_production_p_3 - 50000 grid_production_u_3
+ - 100000 grid_production_u_23 <= 0
+grid_production_on_off_max_3: grid_production_p_3 - 100000 grid_production_u_3
  <= 0
-grid_production_on_off_max_4: grid_production_p_4 - 50000 grid_production_u_4
+grid_production_on_off_max_4: grid_production_p_4 - 100000 grid_production_u_4
  <= 0
-grid_production_on_off_max_5: grid_production_p_5 - 50000 grid_production_u_5
+grid_production_on_off_max_5: grid_production_p_5 - 100000 grid_production_u_5
  <= 0
-grid_production_on_off_max_6: grid_production_p_6 - 50000 grid_production_u_6
+grid_production_on_off_max_6: grid_production_p_6 - 100000 grid_production_u_6
  <= 0
-grid_production_on_off_max_7: grid_production_p_7 - 50000 grid_production_u_7
+grid_production_on_off_max_7: grid_production_p_7 - 100000 grid_production_u_7
  <= 0
-grid_production_on_off_max_8: grid_production_p_8 - 50000 grid_production_u_8
+grid_production_on_off_max_8: grid_production_p_8 - 100000 grid_production_u_8
  <= 0
-grid_production_on_off_max_9: grid_production_p_9 - 50000 grid_production_u_9
+grid_production_on_off_max_9: grid_production_p_9 - 100000 grid_production_u_9
  <= 0
 grid_production_on_off_min_0: grid_production_p_0 - 1e-05 grid_production_u_0
  >= 0
@@ -261,7 +276,7 @@ grid_production_on_off_min_8: grid_production_p_8 - 1e-05 grid_production_u_8
  >= 0
 grid_production_on_off_min_9: grid_production_p_9 - 1e-05 grid_production_u_9
  >= 0
-pv_calc_e_tot: pv_e_tot = 315962.462475
+pv_calc_e_tot: pv_e_tot = 192.019352377
 storage_calc_e_0: - storage_e_0 + storage_e_1 - storage_pc_0 + storage_pd_0
  = 0
 storage_calc_e_1: - storage_e_1 + storage_e_2 - storage_pc_1 + storage_pd_1
@@ -548,6 +563,7 @@ storage_on_off_stor_6: storage_pc_6 + storage_pd_6 - 0.001 storage_u_6 >= 0
 storage_on_off_stor_7: storage_pc_7 + storage_pd_7 - 0.001 storage_u_7 >= 0
 storage_on_off_stor_8: storage_pc_8 + storage_pd_8 - 0.001 storage_u_8 >= 0
 storage_on_off_stor_9: storage_pc_9 + storage_pd_9 - 0.001 storage_u_9 >= 0
+storage_set_e_0: storage_e_0 = 0
 storage_set_soc_max_0: - storage_capacity + storage_e_0 <= 0
 storage_set_soc_max_1: - storage_capacity + storage_e_1 <= 0
 storage_set_soc_max_10: - storage_capacity + storage_e_10 <= 0
@@ -596,10 +612,10 @@ storage_set_soc_min_6: storage_e_6 >= 0
 storage_set_soc_min_7: storage_e_7 >= 0
 storage_set_soc_min_8: storage_e_8 >= 0
 storage_set_soc_min_9: storage_e_9 >= 0
+wind_calc_e_tot: wind_e_tot = 254.168073629
 Bounds
-__dummy = 0
-eco_district_unit_e_tot = 920035.75231
-grid_consumption_e_tot <= 1000000000
+eco_district_e_tot = 376.537625772
+grid_consumption_e_tot <= 1000000
 grid_consumption_p_0 <= 100000
 grid_consumption_p_1 <= 100000
 grid_consumption_p_10 <= 100000
@@ -624,32 +640,32 @@ grid_consumption_p_6 <= 100000
 grid_consumption_p_7 <= 100000
 grid_consumption_p_8 <= 100000
 grid_consumption_p_9 <= 100000
-grid_production_e_tot <= 10000000000
-grid_production_p_0 <= 50000
-grid_production_p_1 <= 50000
-grid_production_p_10 <= 50000
-grid_production_p_11 <= 50000
-grid_production_p_12 <= 50000
-grid_production_p_13 <= 50000
-grid_production_p_14 <= 50000
-grid_production_p_15 <= 50000
-grid_production_p_16 <= 50000
-grid_production_p_17 <= 50000
-grid_production_p_18 <= 50000
-grid_production_p_19 <= 50000
-grid_production_p_2 <= 50000
-grid_production_p_20 <= 50000
-grid_production_p_21 <= 50000
-grid_production_p_22 <= 50000
-grid_production_p_23 <= 50000
-grid_production_p_3 <= 50000
-grid_production_p_4 <= 50000
-grid_production_p_5 <= 50000
-grid_production_p_6 <= 50000
-grid_production_p_7 <= 50000
-grid_production_p_8 <= 50000
-grid_production_p_9 <= 50000
-pv_e_tot = 315962.462475
+grid_production_e_tot <= 10000000
+grid_production_p_0 <= 100000
+grid_production_p_1 <= 100000
+grid_production_p_10 <= 100000
+grid_production_p_11 <= 100000
+grid_production_p_12 <= 100000
+grid_production_p_13 <= 100000
+grid_production_p_14 <= 100000
+grid_production_p_15 <= 100000
+grid_production_p_16 <= 100000
+grid_production_p_17 <= 100000
+grid_production_p_18 <= 100000
+grid_production_p_19 <= 100000
+grid_production_p_2 <= 100000
+grid_production_p_20 <= 100000
+grid_production_p_21 <= 100000
+grid_production_p_22 <= 100000
+grid_production_p_23 <= 100000
+grid_production_p_3 <= 100000
+grid_production_p_4 <= 100000
+grid_production_p_5 <= 100000
+grid_production_p_6 <= 100000
+grid_production_p_7 <= 100000
+grid_production_p_8 <= 100000
+grid_production_p_9 <= 100000
+pv_e_tot = 192.019352377
 -100000 <= storage_e_tot <= 1000000
 -100000 <= storage_p_0 <= 100000
 -100000 <= storage_p_1 <= 100000
@@ -723,6 +739,7 @@ storage_pd_6 <= 100000
 storage_pd_7 <= 100000
 storage_pd_8 <= 100000
 storage_pd_9 <= 100000
+wind_e_tot = 254.168073629
 Binaries
 grid_consumption_u_0
 grid_consumption_u_1
